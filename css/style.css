@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    padding: 25px 15%;
+    background-color: #1f2937;
+}
+
+#header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+#nav-menu ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+/* hero */
+
+#hero {
+    padding: 250px 15% 0px 15%;
+    background-color: #1f2937;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#hero-text-container {
+    position: relative;
+}
+
+#hero-text {
+    position: absolute;
+    top: 15%;
+}
+
+#hero-main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+    display: block;
+}
+
+#hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    font-size: 18px;
+    color: #f9faf8;
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 12px;
+}
+
+#hero-text > * {
+    margin-bottom: 20px;
+}
+
+#hero-image {
+    width: 100%;
+}
+
+/* information */
+
+#social-proof {
+    padding-top: 5%;
+    height: 100vh;
+}
+
+#social-proof center {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
