@@ -116,13 +116,13 @@ button {
 
 .information-icons img {
     border-radius: 20px;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     margin-bottom: 30px;
 }
 
 .information-subtext {
-    width: 300px;
+    width: 200px;
     color: #54565a;
     font-size: 18px;
 }
